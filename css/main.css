@@ -30,7 +30,7 @@ footer p {
 }
 
 header {
-  background-image:url('../pictures/header.png') no-repeat;
+  background-image: url('../pictures/header.png') no-repeat;
   border-bottom: 2px solid #999999;
   height: 60px;
   position: relative;
