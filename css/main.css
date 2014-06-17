@@ -35,15 +35,17 @@ header {
   position: relative;
   width: 100%;
   background-image: url('../img/photos/header.png');
- 
+  background-repeat: no-repeat;
+  background-size: 100%;
+ overflow-x: auto;
 }
 
 header h1 {
   float: left;
-  font-size: 1.75rem;
+  font-size: 24;
   font-weight: 300;
   margin: 0;
-  padding-left: 10px;
+  padding-left: 30px;
  
 }
 
@@ -82,7 +84,13 @@ header nav a, header nav a:visited {
   color: #ffffff;
   transition: color 200ms ease-in-out;
 }
-
+video {
+  width: 100%    !important;
+  height: auto   !important;
+  position: relative;
+  padding-bottom: 56.25%;
+}
+}
 .gallery {
   margin: 0;
   padding: 0;
